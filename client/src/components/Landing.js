@@ -1,9 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Landing extends Component {
-  render() {
-    return <h3>Landing</h3>;
-  }
-}
+const Landing = () => {
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <h1>Emaily!</h1>
+      Collect feedback from your users
+    </div>
+  );
+};
 
 export default Landing;
